@@ -1,12 +1,12 @@
 import React from 'react';
-import { Track } from '../Track/Track';
+import Track from '../Track/Track';
 
 class TrackList extends React.Component {
 	render() {
-		return 
-		(
+		return (
 			<div className="TrackList">
-    			<!-- You will add a map method that renders a set of Track components  -->
+			<p>*You will add a map method that renders a set of Track components</p>
+    		<Track />
 			</div>
 		);
 	}
