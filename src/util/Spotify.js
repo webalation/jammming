@@ -1,5 +1,5 @@
 const clientId = '97b4065fe0324ffdb7e70f69a2aec386';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://webalation.github.io/jammming/';
 let accessToken;
 
 const Spotify = {
