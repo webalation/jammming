@@ -10,17 +10,9 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      searchResults: [{id: 1, name: 'Hello', artist: 'Kes', album: 'Folklore Riddim'},
-                      {id: 2, name: 'Tombstone', artist: 'Mandella Linkz', album: 'Mandrakes Riddim'},
-                      {id: 3, name: 'That Work (Look At You)', artist: 'Problem Child', album: 'Force It Riddim'},
-                      {id: 4, name: 'True Masquerader', artist: 'Kes', album: 'Titans Riddim'},
-                      {id: 5, name: 'Showtime', artist: 'Machel Montano', album: 'Pim Pim Riddim'}],
-      playlistName: 'Soca Brainwash Mix',
-      playlistTracks: [{id: 6, name: 'Play Harder', artist: 'Machel Montano', album: 'Pops Guitar Riddim'}, 
-                       {id: 7, name: 'Radar', artist: 'Kes', album: '4th Quarter Riddim'},
-                       {id: 8, name: 'Release', artist: 'Machel Montano', album: 'G.O.A.T.'},
-                       {id: 9, name: 'Dear Drunk People', artist: 'Kerwin Du Bois', album: 'Tingin Riddim'},
-                       {id: 10, name: 'The Best', artist: 'Sekon Sta', album: 'Kan Kan Riddim'}]
+      searchResults: [],
+      playlistName: 'My Playlist',
+      playlistTracks: []
     }
 
     this.addTrack = this.addTrack.bind(this);
@@ -60,13 +52,19 @@ class App extends React.Component {
 
   savePlaylist() {
     const trackUris = this.state.playlistTracks.map(track => track.uri);
+    Spotify.savePlaylist(this.state.playlistName, trackUris).then(() => {
+      this.setState({
+        playlistName: 'New Playlist',
+        playlistTracks: []
+      });
+    });
   }
 
   search(term) {
     Spotify.search(term).then(searchResults => {
       this.setState({
         searchResults: searchResults
-      })
+      });
     });
   }
 
