@@ -1,4 +1,4 @@
-const clientId = '97b4065fe0324ffdb7e70f69a2aec386';
+const clientId = process.env.REACT_APP_CLIENT_ID;
 const redirectUri = 'https://webalation.github.io/jammming/';
 let accessToken;
 
