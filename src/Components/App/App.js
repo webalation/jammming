@@ -82,6 +82,7 @@ class App extends React.Component {
                       onRemove={this.removeTrack}
                       onNameChange={this.updatePlaylistName}
                       onSave={this.savePlaylist} />
+                      <button onClick={methodDoesNotExist}>Break the world</button>;
           </div>
         </div>
       </div>
