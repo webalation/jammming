@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './Components/App/App';
 import * as serviceWorker from './serviceWorker';
+import * as Sentry from '@sentry/browser';
 
 Sentry.init({dsn: "https://0632561d7d784893878cd1234ca9b1e8@o395744.ingest.sentry.io/5248132"});
 
