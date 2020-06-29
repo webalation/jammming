@@ -1,68 +1,76 @@
 This Jammming project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Project name
 
-In the project directory, you can run:
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+![GitHub repo size](https://img.shields.io/github/repo-size/scottydocs/README-template.md)
+![GitHub contributors](https://img.shields.io/github/contributors/scottydocs/README-template.md)
+![GitHub stars](https://img.shields.io/github/stars/scottydocs/README-template.md?style=social)
+![GitHub forks](https://img.shields.io/github/forks/scottydocs/README-template.md?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/scottydocs?style=social)
 
-### `npm start`
+Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+Before you begin, ensure you have met the following requirements:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* You have installed the latest version of `<coding_language/dependency/requirement_1>`
+* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
+* You have read `<guide/link/documentation_related_to_project>`.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installing <project_name>
 
-### `npm run build`
+To install <project_name>, follow these steps:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Linux and macOS:
+```
+<install_command>
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Windows:
+```
+<install_command>
+```
+## Using <project_name>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use <project_name>, follow these steps:
 
-### `npm run eject`
+```
+<usage_example>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing to <project_name>
+<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+To contribute to <project_name>, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Learn More
+## Contributors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thanks to the following people who have contributed to this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [@scottydocs](https://github.com/scottydocs) 📖
+* [@cainwatson](https://github.com/cainwatson) 🐛
+* [@calchuchesta](https://github.com/calchuchesta) 🐛
 
-### Code Splitting
+You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Contact
 
-### Analyzing the Bundle Size
+If you want to contact me you can reach me at <your_email@address.com>.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## License
+<!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project uses the following license: [<license_name>](<link>).
