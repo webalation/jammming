@@ -4,4 +4,4 @@ A React web application that allows users to search the Spotify library, create 
 
 ## Live Demo
 
-To view live demo click here: [Live Demo](https://webalation.github.io/jammming/).
+[Click Here](https://webalation.github.io/jammming/) to view the live demo.
